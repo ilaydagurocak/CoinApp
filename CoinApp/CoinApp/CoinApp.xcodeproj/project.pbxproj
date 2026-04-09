@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFDB8382F87A8E500504E30 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8372F87A8E500504E30 /* FirebaseAI */; };
+		0CFDB83A2F87A8E500504E30 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8392F87A8E500504E30 /* FirebaseAILogic */; };
+		0CFDB83C2F87A8E500504E30 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB83B2F87A8E500504E30 /* FirebaseAnalytics */; };
+		0CFDB83E2F87A8E500504E30 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB83D2F87A8E500504E30 /* FirebaseAnalyticsCore */; };
+		0CFDB8402F87A8E500504E30 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB83F2F87A8E500504E30 /* FirebaseAnalyticsIdentitySupport */; };
+		0CFDB8422F87A8E500504E30 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8412F87A8E500504E30 /* FirebaseAppCheck */; };
+		0CFDB8442F87A8E500504E30 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8432F87A8E500504E30 /* FirebaseAppDistribution-Beta */; };
+		0CFDB8462F87A8E500504E30 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8452F87A8E500504E30 /* FirebaseAuth */; };
+		0CFDB8482F87A8E500504E30 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8472F87A8E500504E30 /* FirebaseAuthCombine-Community */; };
+		0CFDB84A2F87A8E500504E30 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8492F87A8E500504E30 /* FirebaseCore */; };
+		0CFDB84C2F87A8E500504E30 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB84B2F87A8E500504E30 /* FirebaseCrashlytics */; };
+		0CFDB84E2F87A8E500504E30 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB84D2F87A8E500504E30 /* FirebaseDatabase */; };
+		0CFDB8502F87A8E500504E30 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB84F2F87A8E500504E30 /* FirebaseFirestore */; };
+		0CFDB8522F87A8E500504E30 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8512F87A8E500504E30 /* FirebaseFirestoreCombine-Community */; };
+		0CFDB8542F87A8E500504E30 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8532F87A8E500504E30 /* FirebaseFunctions */; };
+		0CFDB8562F87A8E500504E30 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8552F87A8E500504E30 /* FirebaseFunctionsCombine-Community */; };
+		0CFDB8582F87A8E500504E30 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8572F87A8E500504E30 /* FirebaseInAppMessaging-Beta */; };
+		0CFDB85A2F87A8E500504E30 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8592F87A8E500504E30 /* FirebaseInstallations */; };
+		0CFDB85C2F87A8E500504E30 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB85B2F87A8E500504E30 /* FirebaseMLModelDownloader */; };
+		0CFDB85E2F87A8E500504E30 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB85D2F87A8E500504E30 /* FirebaseMessaging */; };
+		0CFDB8602F87A8E500504E30 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB85F2F87A8E500504E30 /* FirebasePerformance */; };
+		0CFDB8622F87A8E500504E30 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8612F87A8E500504E30 /* FirebaseRemoteConfig */; };
+		0CFDB8642F87A8E500504E30 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8632F87A8E500504E30 /* FirebaseStorage */; };
+		0CFDB8662F87A8E500504E30 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0CFDB8652F87A8E500504E30 /* FirebaseStorageCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CFDB81A2F87A79E00504E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFDB8012F87A79A00504E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFDB8082F87A79A00504E30;
+			remoteInfo = CoinApp;
+		};
+		0CFDB8242F87A79E00504E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFDB8012F87A79A00504E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFDB8082F87A79A00504E30;
+			remoteInfo = CoinApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFDB8092F87A79B00504E30 /* CoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFDB8192F87A79E00504E30 /* CoinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFDB8232F87A79E00504E30 /* CoinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0CFDB86B2F87A97200504E30 /* Exceptions for "CoinApp" folder in "CoinAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 0CFDB8182F87A79E00504E30 /* CoinAppTests */;
+		};
+		0CFDB86C2F87A97200504E30 /* Exceptions for "CoinApp" folder in "CoinAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 0CFDB8222F87A79E00504E30 /* CoinAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0CFDB80B2F87A79B00504E30 /* CoinApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0CFDB86B2F87A97200504E30 /* Exceptions for "CoinApp" folder in "CoinAppTests" target */,
+				0CFDB86C2F87A97200504E30 /* Exceptions for "CoinApp" folder in "CoinAppUITests" target */,
+			);
+			path = CoinApp;
+			sourceTree = "<group>";
+		};
+		0CFDB81C2F87A79E00504E30 /* CoinAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoinAppTests;
+			sourceTree = "<group>";
+		};
+		0CFDB8262F87A79E00504E30 /* CoinAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoinAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CFDB8062F87A79A00504E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB8442F87A8E500504E30 /* FirebaseAppDistribution-Beta in Frameworks */,
+				0CFDB8502F87A8E500504E30 /* FirebaseFirestore in Frameworks */,
+				0CFDB8482F87A8E500504E30 /* FirebaseAuthCombine-Community in Frameworks */,
+				0CFDB85A2F87A8E500504E30 /* FirebaseInstallations in Frameworks */,
+				0CFDB83A2F87A8E500504E30 /* FirebaseAILogic in Frameworks */,
+				0CFDB8402F87A8E500504E30 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				0CFDB8582F87A8E500504E30 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				0CFDB8382F87A8E500504E30 /* FirebaseAI in Frameworks */,
+				0CFDB84C2F87A8E500504E30 /* FirebaseCrashlytics in Frameworks */,
+				0CFDB8562F87A8E500504E30 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				0CFDB8662F87A8E500504E30 /* FirebaseStorageCombine-Community in Frameworks */,
+				0CFDB84E2F87A8E500504E30 /* FirebaseDatabase in Frameworks */,
+				0CFDB8642F87A8E500504E30 /* FirebaseStorage in Frameworks */,
+				0CFDB8622F87A8E500504E30 /* FirebaseRemoteConfig in Frameworks */,
+				0CFDB83C2F87A8E500504E30 /* FirebaseAnalytics in Frameworks */,
+				0CFDB85E2F87A8E500504E30 /* FirebaseMessaging in Frameworks */,
+				0CFDB85C2F87A8E500504E30 /* FirebaseMLModelDownloader in Frameworks */,
+				0CFDB8602F87A8E500504E30 /* FirebasePerformance in Frameworks */,
+				0CFDB84A2F87A8E500504E30 /* FirebaseCore in Frameworks */,
+				0CFDB8422F87A8E500504E30 /* FirebaseAppCheck in Frameworks */,
+				0CFDB83E2F87A8E500504E30 /* FirebaseAnalyticsCore in Frameworks */,
+				0CFDB8542F87A8E500504E30 /* FirebaseFunctions in Frameworks */,
+				0CFDB8462F87A8E500504E30 /* FirebaseAuth in Frameworks */,
+				0CFDB8522F87A8E500504E30 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB8162F87A79E00504E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB8202F87A79E00504E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFDB8002F87A79A00504E30 = {
+			isa = PBXGroup;
+			children = (
+				0CFDB80B2F87A79B00504E30 /* CoinApp */,
+				0CFDB81C2F87A79E00504E30 /* CoinAppTests */,
+				0CFDB8262F87A79E00504E30 /* CoinAppUITests */,
+				0CFDB80A2F87A79B00504E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CFDB80A2F87A79B00504E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB8092F87A79B00504E30 /* CoinApp.app */,
+				0CFDB8192F87A79E00504E30 /* CoinAppTests.xctest */,
+				0CFDB8232F87A79E00504E30 /* CoinAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CFDB8082F87A79A00504E30 /* CoinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFDB82D2F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinApp" */;
+			buildPhases = (
+				0CFDB8052F87A79A00504E30 /* Sources */,
+				0CFDB8062F87A79A00504E30 /* Frameworks */,
+				0CFDB8072F87A79A00504E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0CFDB80B2F87A79B00504E30 /* CoinApp */,
+			);
+			name = CoinApp;
+			packageProductDependencies = (
+				0CFDB8372F87A8E500504E30 /* FirebaseAI */,
+				0CFDB8392F87A8E500504E30 /* FirebaseAILogic */,
+				0CFDB83B2F87A8E500504E30 /* FirebaseAnalytics */,
+				0CFDB83D2F87A8E500504E30 /* FirebaseAnalyticsCore */,
+				0CFDB83F2F87A8E500504E30 /* FirebaseAnalyticsIdentitySupport */,
+				0CFDB8412F87A8E500504E30 /* FirebaseAppCheck */,
+				0CFDB8432F87A8E500504E30 /* FirebaseAppDistribution-Beta */,
+				0CFDB8452F87A8E500504E30 /* FirebaseAuth */,
+				0CFDB8472F87A8E500504E30 /* FirebaseAuthCombine-Community */,
+				0CFDB8492F87A8E500504E30 /* FirebaseCore */,
+				0CFDB84B2F87A8E500504E30 /* FirebaseCrashlytics */,
+				0CFDB84D2F87A8E500504E30 /* FirebaseDatabase */,
+				0CFDB84F2F87A8E500504E30 /* FirebaseFirestore */,
+				0CFDB8512F87A8E500504E30 /* FirebaseFirestoreCombine-Community */,
+				0CFDB8532F87A8E500504E30 /* FirebaseFunctions */,
+				0CFDB8552F87A8E500504E30 /* FirebaseFunctionsCombine-Community */,
+				0CFDB8572F87A8E500504E30 /* FirebaseInAppMessaging-Beta */,
+				0CFDB8592F87A8E500504E30 /* FirebaseInstallations */,
+				0CFDB85B2F87A8E500504E30 /* FirebaseMLModelDownloader */,
+				0CFDB85D2F87A8E500504E30 /* FirebaseMessaging */,
+				0CFDB85F2F87A8E500504E30 /* FirebasePerformance */,
+				0CFDB8612F87A8E500504E30 /* FirebaseRemoteConfig */,
+				0CFDB8632F87A8E500504E30 /* FirebaseStorage */,
+				0CFDB8652F87A8E500504E30 /* FirebaseStorageCombine-Community */,
+			);
+			productName = CoinApp;
+			productReference = 0CFDB8092F87A79B00504E30 /* CoinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CFDB8182F87A79E00504E30 /* CoinAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFDB8302F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinAppTests" */;
+			buildPhases = (
+				0CFDB8152F87A79E00504E30 /* Sources */,
+				0CFDB8162F87A79E00504E30 /* Frameworks */,
+				0CFDB8172F87A79E00504E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CFDB81B2F87A79E00504E30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0CFDB81C2F87A79E00504E30 /* CoinAppTests */,
+			);
+			name = CoinAppTests;
+			packageProductDependencies = (
+			);
+			productName = CoinAppTests;
+			productReference = 0CFDB8192F87A79E00504E30 /* CoinAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CFDB8222F87A79E00504E30 /* CoinAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFDB8332F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinAppUITests" */;
+			buildPhases = (
+				0CFDB81F2F87A79E00504E30 /* Sources */,
+				0CFDB8202F87A79E00504E30 /* Frameworks */,
+				0CFDB8212F87A79E00504E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CFDB8252F87A79E00504E30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0CFDB8262F87A79E00504E30 /* CoinAppUITests */,
+			);
+			name = CoinAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CoinAppUITests;
+			productReference = 0CFDB8232F87A79E00504E30 /* CoinAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CFDB8012F87A79A00504E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0CFDB8082F87A79A00504E30 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0CFDB8182F87A79E00504E30 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0CFDB8082F87A79A00504E30;
+					};
+					0CFDB8222F87A79E00504E30 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0CFDB8082F87A79A00504E30;
+					};
+				};
+			};
+			buildConfigurationList = 0CFDB8042F87A79A00504E30 /* Build configuration list for PBXProject "CoinApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CFDB8002F87A79A00504E30;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0CFDB80A2F87A79B00504E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFDB8082F87A79A00504E30 /* CoinApp */,
+				0CFDB8182F87A79E00504E30 /* CoinAppTests */,
+				0CFDB8222F87A79E00504E30 /* CoinAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFDB8072F87A79A00504E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB8172F87A79E00504E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB8212F87A79E00504E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFDB8052F87A79A00504E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB8152F87A79E00504E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB81F2F87A79E00504E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CFDB81B2F87A79E00504E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFDB8082F87A79A00504E30 /* CoinApp */;
+			targetProxy = 0CFDB81A2F87A79E00504E30 /* PBXContainerItemProxy */;
+		};
+		0CFDB8252F87A79E00504E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFDB8082F87A79A00504E30 /* CoinApp */;
+			targetProxy = 0CFDB8242F87A79E00504E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CFDB82B2F87A79E00504E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CFDB82C2F87A79E00504E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CFDB82E2F87A79E00504E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CFDB82F2F87A79E00504E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CFDB8312F87A79E00504E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinApp";
+			};
+			name = Debug;
+		};
+		0CFDB8322F87A79E00504E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinApp";
+			};
+			name = Release;
+		};
+		0CFDB8342F87A79E00504E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinApp;
+			};
+			name = Debug;
+		};
+		0CFDB8352F87A79E00504E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLF9XQRQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoinApp.CoinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CFDB8042F87A79A00504E30 /* Build configuration list for PBXProject "CoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB82B2F87A79E00504E30 /* Debug */,
+				0CFDB82C2F87A79E00504E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFDB82D2F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB82E2F87A79E00504E30 /* Debug */,
+				0CFDB82F2F87A79E00504E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFDB8302F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB8312F87A79E00504E30 /* Debug */,
+				0CFDB8322F87A79E00504E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFDB8332F87A79E00504E30 /* Build configuration list for PBXNativeTarget "CoinAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB8342F87A79E00504E30 /* Debug */,
+				0CFDB8352F87A79E00504E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CFDB8372F87A8E500504E30 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		0CFDB8392F87A8E500504E30 /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+		0CFDB83B2F87A8E500504E30 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0CFDB83D2F87A8E500504E30 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		0CFDB83F2F87A8E500504E30 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		0CFDB8412F87A8E500504E30 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		0CFDB8432F87A8E500504E30 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		0CFDB8452F87A8E500504E30 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0CFDB8472F87A8E500504E30 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		0CFDB8492F87A8E500504E30 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		0CFDB84B2F87A8E500504E30 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		0CFDB84D2F87A8E500504E30 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0CFDB84F2F87A8E500504E30 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0CFDB8512F87A8E500504E30 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		0CFDB8532F87A8E500504E30 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		0CFDB8552F87A8E500504E30 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		0CFDB8572F87A8E500504E30 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		0CFDB8592F87A8E500504E30 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		0CFDB85B2F87A8E500504E30 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		0CFDB85D2F87A8E500504E30 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		0CFDB85F2F87A8E500504E30 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		0CFDB8612F87A8E500504E30 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		0CFDB8632F87A8E500504E30 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0CFDB8652F87A8E500504E30 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CFDB8362F87A8E500504E30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CFDB8012F87A79A00504E30 /* Project object */;
+}
