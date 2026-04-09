@@ -13,6 +13,19 @@ struct FavoritesView: View {
                 let favorites = coinViewModel.favoriteCoins()
                 
                 VStack {
+                    
+                    
+                    HStack {
+                        Text("Favorites")
+                            .font(.system(size: 32, weight: .bold))
+                            .foregroundColor(.white)
+                        
+                        Spacer()
+                    }
+                    .padding(.horizontal)
+                    .padding(.top, 10)
+                    
+                    
                     if favorites.isEmpty {
                         Spacer()
                         VStack(spacing: 12) {
@@ -47,8 +60,6 @@ struct FavoritesView: View {
                 }
                 .padding(.top, 8)
             }
-            .navigationTitle("Favorites")
-            .navigationBarTitleDisplayMode(.large)
             .task {
                 if coinViewModel.coins.isEmpty {
                     await coinViewModel.loadInitialData()
